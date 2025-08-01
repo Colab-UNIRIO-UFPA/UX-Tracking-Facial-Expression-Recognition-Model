@@ -49,7 +49,7 @@ def metrics_eval(true_labels, pred_labels):
 if __name__ == "__main__":
     np.int = int
     set_seed(42)
-    DATA_DIR = "AffectNet"
+    DATA_DIR = "data"
     IMG_HEIGHT, IMG_WIDTH = 96, 96
     BATCH_SIZE = 128
     MODEL_NAME = "EfficientNet"  # EfficientNet, Resnet50 or MobileNet
