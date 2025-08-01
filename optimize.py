@@ -99,7 +99,7 @@ def train_and_evaluate(
 if __name__ == '__main__':
     np.int = int
     set_seed(42)
-    DATA_DIR = 'AffectNet'
+    DATA_DIR = 'data'
     IMG_HEIGHT, IMG_WIDTH = 96, 96
     EPOCHS = 5 # Epochs per optimization candidate
     MODEL_NAME = "EfficientNet"  # EfficientNet, Resnet50, MobileNet, SENet50 or VGG16
