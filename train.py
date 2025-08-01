@@ -151,7 +151,7 @@ def run_kfold_cross_validation(model_name, k=5):
 if __name__ == "__main__":
     np.int = int
     set_seed(42)
-    DATA_DIR = "AffectNet"
+    DATA_DIR = "data"
     IMG_HEIGHT, IMG_WIDTH = 96, 96
     EPOCHS = 5  # Epochs per fold
     MODEL_NAME = "EfficientNet"  # EfficientNet, Resnet50, MobileNet or VGG16
